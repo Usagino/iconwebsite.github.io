@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.823 15.353">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="search-icon" transform="translate(-952 -75)">
+    <g id="楕円形_1" data-name="楕円形 1" class="cls-1" transform="translate(952 75)">
+      <circle class="cls-2" cx="4.5" cy="4.5" r="4.5"/>
+      <circle class="cls-3" cx="4.5" cy="4.5" r="4"/>
+    </g>
+    <path id="パス_4" data-name="パス 4" class="cls-1" d="M1032-317.923h11.094" transform="translate(5.085 -422.774) rotate(45)"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+footer{
+  
+  .footer{
+    height: 3rem;
+    width: 100vw;
+    background: $color4;
+    @include dispaly-center;
+    p{
+      color: $white;
+    }
+  }
+}

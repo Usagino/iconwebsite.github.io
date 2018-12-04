@@ -1,0 +1,65 @@
+mixin cardbox
+  .cardbox: img(src="")
+    
+doctype html
+html(lang="ja")
+  head
+    include includes/_head.pug
+  
+  body
+    header
+      include includes/_header.pug
+    main
+      #index
+        .firstview
+          .firstview--cardwrap
+            .cardbox: img(src="material/icons/takahashi/icon-0.png")
+            .cardbox: img(src="material/icons/suzuki/icon-0.png")
+            .cardbox: img(src="material/icons/ito/icon-0.png")
+            .cardbox: img(src="material/icons/hurukawa/icon-0.png")
+            .cardbox: img(src="material/icons/hayato/icon-0.png")
+            .cardbox: img(src="material/icons/ito/icon-2.png")
+            .cardbox: img(src="material/icons/hurukawa/icon-2.png")
+            .cardbox: img(src="material/icons/takahashi/icon-2.png")
+              
+          .firstview--background
+        .introduction
+          .introduction__wrap
+            .introduction__wrap__textbox
+              h1.introduction__wrap__textbox--title What is NICO?
+              p.introduction__wrap__textbox--text NICOはクリエイターが作成したアイコンを掲載、ダウンロードするサイトです。ここにあるアイコンは全て、デザイナーやデザイナーの卵が作ったアイコンです。
+            .introduction__wrap__imagebox
+              .introduction__wrap__imagebox--card1: img(src="material/icons/kusuhara/icon-0.png")
+              .introduction__wrap__imagebox--card2: img(src="material/icons/hurukawa/icon-0.png")
+              .introduction__wrap__imagebox--card3: img(src="material/icons/ito/icon-0.png")
+          .introduction--background
+        .gallery
+          h1.gallery--title NICO icons
+          .gallery__wrap
+            .cardbox: img(src="material/icons/takahashi/icon-0.png")
+            .cardbox: img(src="material/icons/saegusa/icon-0.png")
+            .cardbox: img(src="material/icons/ito/icon-0.png")
+            .cardbox: img(src="material/icons/keito/icon-0.png")
+            .cardbox: img(src="material/icons/dora/icon-0.png")
+            .cardbox: img(src="material/icons/mine/icon-0.png")
+            .cardbox: img(src="material/icons/samu/icon-0.png")
+            .cardbox: img(src="material/icons/suzuki/icon-0.png")
+            .cardbox: img(src="material/icons/matuba/icon-0.png")
+            .cardbox: img(src="material/icons/suzuki/icon-4.png")
+            .cardbox: img(src="material/icons/hayato/icon-0.png")
+            .cardbox: img(src="material/icons/ito/icon-2.png")
+                    
+
+
+          .gallery__linkbox
+            a.gallery__linkbox--button(href="icons.html")
+              span SHOW MORE
+          .gallery--background
+    footer
+      include includes/_footer.pug
+        
+    
+    
+      
+  
+  include includes/_script.pug

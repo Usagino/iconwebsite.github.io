@@ -1,0 +1,53 @@
+mixin cardbox
+  .cardbox
+    
+doctype html
+html(lang="ja")
+  head
+    include includes/_head.pug
+  
+  body
+    header
+      include includes/_header.pug
+    main
+      #icons
+        .show
+          .show__back
+            span
+            .show__back__button
+              span.show__back__button--bar1
+              span.show__back__button--bar2
+          .show__wrapbox
+            .show__wrapbox__textbox
+              h2.show__wrapbox__textbox--name
+              p.show__wrapbox__textbox--title
+              p.show__wrapbox__textbox--text 
+            .show__wrapbox__cardbox
+              img.show__wrapbox__cardbox--image(src="")
+              a.show__wrapbox__cardbox--link(href="" download="icon.zip"): span DOWNLOAD
+            ul.show__wrapbox__icons
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-0.png")
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-1.png")
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-2.png")
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-3.png")
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-4.png")
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-5.png")
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-6.png")
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-7.png")
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-8.png")
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-6.png")
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-7.png")
+              //- li.show__wrapbox__icons--icon: img(src="material/icons/hurukawa/icon-8.png")                
+          .show__background
+        .content
+          h1.content--title All icons
+          .content__wrap
+            
+
+    footer
+      include includes/_footer.pug
+      
+    
+      
+  
+  include includes/_script.pug

@@ -1,0 +1,66 @@
+
+header{
+  height: 120px;
+  .header{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    &--logo{
+      a{
+        font-size: 2rem;
+        color: $black;
+        font-weight: bold;
+      }
+
+    }
+    &__menu{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      &>*{
+        margin: 0 2rem;
+      }
+
+      &--about{
+
+      }
+      &--post{
+
+      }
+      &__search{
+        background: $color0;
+        height: 2rem;
+        width: 16rem;
+        border-radius: 1rem;
+        // box-shadow: 0 2px 10px rgba(0,0,0,.2);
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        transition: all .2s ease;
+        &>*{
+          display: inline-block;
+            border: none;
+        }
+        &--window{
+          background: $color0;
+          // padding: 0 1rem;
+
+        }
+        &--submit{
+          cursor: pointer;
+          width: 1rem;
+          height: 1rem;
+          background-color: inherit;
+          background-image: url("../material/search-icon.svg")
+        }
+      }
+    }
+  }
+}

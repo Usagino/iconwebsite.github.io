@@ -1,0 +1,18 @@
+@keyframes cardopen1{
+  0%{
+    transform: rotate(0deg) translate(0rem ,0rem);
+
+  }
+  100%{
+    transform: rotate(40deg) translate(2rem ,-1rem);
+  }
+}
+@keyframes cardopen2{
+  0%{
+    transform: rotate(0deg) translate(0rem ,0rem);
+
+  }
+  100%{
+    transform: rotate(-40deg) translate(-2rem, -1rem);
+  }
+}
