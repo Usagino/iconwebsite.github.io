@@ -4,4 +4,4 @@ https://usagino.github.io/iconwebsite.github.io/index.html
 
 
 
-![mockup](mockup.png)
+![mockup](mockup-image.png)
